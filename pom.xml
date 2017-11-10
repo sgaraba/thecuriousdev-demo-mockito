@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.thecuriousdev.demo</groupId>
-    <artifactId>skeleton</artifactId>
+    <artifactId>mockito</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>skeleton</name>
-    <description>Skeleton project for https://thecuriousdev.org blog posts</description>
+    <name>mockito</name>
+    <description>Mockito project for https://thecuriousdev.org blog post</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -39,6 +39,20 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>23.3-jre</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4</artifactId>
+            <version>1.6.4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+            <version>1.6.4</version>
+            <scope>test</scope>
         </dependency>
 
         <dependency>
